@@ -1,0 +1,14 @@
+D:\Texnar\pacman\pacman\bin\Release\pacman.exe.config
+D:\Texnar\pacman\pacman\bin\Release\pacman.exe
+D:\Texnar\pacman\pacman\bin\Release\pacman.pdb
+D:\Texnar\pacman\pacman\bin\Release\PresentationCore.dll
+D:\Texnar\pacman\pacman\obj\Release\pacman.csprojAssemblyReference.cache
+D:\Texnar\pacman\pacman\obj\Release\pacman.csproj.ResolveComReference.cache
+D:\Texnar\pacman\pacman\obj\Release\pacman.AboutDev.resources
+D:\Texnar\pacman\pacman\obj\Release\pacman.Form1.resources
+D:\Texnar\pacman\pacman\obj\Release\pacman.Properties.Resources.resources
+D:\Texnar\pacman\pacman\obj\Release\pacman.csproj.GenerateResource.cache
+D:\Texnar\pacman\pacman\obj\Release\pacman.csproj.CoreCompileInputs.cache
+D:\Texnar\pacman\pacman\obj\Release\pacman.csproj.CopyComplete
+D:\Texnar\pacman\pacman\obj\Release\pacman.exe
+D:\Texnar\pacman\pacman\obj\Release\pacman.pdb

@@ -1,0 +1,14 @@
+D:\Texnar\pacman\pacman\bin\Debug\pacman.exe.config
+D:\Texnar\pacman\pacman\bin\Debug\pacman.exe
+D:\Texnar\pacman\pacman\bin\Debug\pacman.pdb
+D:\Texnar\pacman\pacman\obj\Debug\pacman.Form1.resources
+D:\Texnar\pacman\pacman\obj\Debug\pacman.Properties.Resources.resources
+D:\Texnar\pacman\pacman\obj\Debug\pacman.csproj.GenerateResource.cache
+D:\Texnar\pacman\pacman\obj\Debug\pacman.csproj.CoreCompileInputs.cache
+D:\Texnar\pacman\pacman\obj\Debug\pacman.exe
+D:\Texnar\pacman\pacman\obj\Debug\pacman.pdb
+D:\Texnar\pacman\pacman\obj\Debug\pacman.csprojAssemblyReference.cache
+D:\Texnar\pacman\pacman\obj\Debug\pacman.csproj.ResolveComReference.cache
+D:\Texnar\pacman\pacman\bin\Debug\PresentationCore.dll
+D:\Texnar\pacman\pacman\obj\Debug\pacman.csproj.CopyComplete
+D:\Texnar\pacman\pacman\obj\Debug\pacman.AboutDev.resources

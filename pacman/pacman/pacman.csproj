@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B7120C9-7E16-4664-BCCC-E1BCC65055F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>pacman</RootNamespace>
+    <AssemblyName>pacman</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutDev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutDev.Designer.cs">
+      <DependentUpon>AboutDev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorderLessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutDev.resx">
+      <DependentUpon>AboutDev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percorso.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percorso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percorso1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman-game-online1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\percorsoPNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paclogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paclogov2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paclogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menudecor.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacigif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bonus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\getready.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameover.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamewin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gamewin1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1sx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1dx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacdown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghosteater.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rdown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bdown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\odown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacriper.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dudown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tempo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mnmusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_chomp.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dp_superpac_wakka.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_death.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_beginning.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_eatfruit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_eatghost.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman_intermission.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\click.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level2persoco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level2log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextlevel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicOFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\musicON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cherry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\point300.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\point200.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
