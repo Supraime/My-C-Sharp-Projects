@@ -1,0 +1,10 @@
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\bin\Debug\ImageWathcer.exe.config
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\bin\Debug\ImageWathcer.exe
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\bin\Debug\ImageWathcer.pdb
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.csprojAssemblyReference.cache
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.Form1.resources
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.Properties.Resources.resources
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.csproj.GenerateResource.cache
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.csproj.CoreCompileInputs.cache
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.exe
+C:\Users\Sup\Desktop\Тестовое задание\ImageWathcer\ImageWathcer\obj\Debug\ImageWathcer.pdb
